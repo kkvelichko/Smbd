@@ -6,5 +6,3 @@ async def fox(ctx):
     embed = discord.Embed(color = 0xff9900, title = 'Random Fox') # Создание Embed'a
     embed.set_image(url = json_data['link']) # Устанавливаем картинку Embed'a
     await ctx.send(embed = embed) # Отправляем Embed
-    
-    
